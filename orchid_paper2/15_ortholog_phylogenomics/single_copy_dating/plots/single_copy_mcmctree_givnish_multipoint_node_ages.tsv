@@ -1,0 +1,10 @@
+node	parameter	median_ma	ci_low_ma	ci_high_ma	mean_ma	descendant_tips
+n11	t_n11	144.108925	118.68260125	185.57906700000004	146.10255766412334	Oryza sativa,Asparagus officinalis,Apostasia shenzhenica,Vanilla planifolia,Platanthera guangdongensis,Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n12	t_n12	117.41193999999999	107.7852255	120.69493775000001	116.52380029269709	Asparagus officinalis,Apostasia shenzhenica,Vanilla planifolia,Platanthera guangdongensis,Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n13	t_n13	83.085625	79.23582325000001	92.31385200000001	83.79204583624163	Apostasia shenzhenica,Vanilla planifolia,Platanthera guangdongensis,Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n14	t_n14	73.315425	68.1348305	81.96218400000001	73.78935062704375	Vanilla planifolia,Platanthera guangdongensis,Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n15	t_n15	57.540795	54.271071750000004	65.74161300000002	58.18454922960771	Platanthera guangdongensis,Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n16	t_n16	36.35618	28.383005000000004	45.615736500000004	36.51231090349096	Dendrobium catenatum,Dendrobium nobile,Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n17	t_n17	4.303575	2.98563125	6.5343495	4.418182075679243	Dendrobium catenatum,Dendrobium nobile
+n18	t_n18	4.437725	3.3696615000000003	6.296826000000002	4.539642096429037	Phalaenopsis aphrodite,Phalaenopsis amabilis,Phalaenopsis equestris
+n19	t_n19	2.0844899999999997	1.47000025	3.0887890000000002	2.1346868986810135	Phalaenopsis aphrodite,Phalaenopsis amabilis

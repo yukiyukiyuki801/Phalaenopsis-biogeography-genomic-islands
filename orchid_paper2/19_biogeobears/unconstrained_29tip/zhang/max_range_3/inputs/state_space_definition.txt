@@ -1,0 +1,3 @@
+Criterion: every allowed range induces one connected subgraph in graph_adjacency.tsv.
+Edges represent geographic proximity or an island-chain dispersal corridor; land connection is not required.
+The null range is retained.

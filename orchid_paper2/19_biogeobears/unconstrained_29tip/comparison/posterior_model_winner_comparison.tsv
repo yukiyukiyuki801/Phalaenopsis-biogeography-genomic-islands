@@ -1,0 +1,5 @@
+model	winning_tree_count	winning_tree_fraction	calibration
+DECJ	36	0.36	Zhang-calibrated
+DIVALIKEJ	64	0.64	Zhang-calibrated
+DECJ	67	0.67	Givnish-calibrated
+DIVALIKEJ	33	0.33	Givnish-calibrated

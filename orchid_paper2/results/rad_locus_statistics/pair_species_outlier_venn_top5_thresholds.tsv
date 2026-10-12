@@ -1,0 +1,16 @@
+panel	set_unit	set_label	metric	tail	quantile	threshold	n_outlier_loci
+High FST	pair	PAM-PAP	hudson_fst	upper	0.95	0.4059565183	29
+High FST	pair	PAM-PSA	hudson_fst	upper	0.95	0.468778199125	29
+High FST	pair	PAP-PSA	hudson_fst	upper	0.95	0.219366800225	29
+High dXY	pair	PAM-PAP	dxy	upper	0.95	0.020178485187499998	29
+High dXY	pair	PAM-PSA	dxy	upper	0.95	0.020441042072500002	29
+High dXY	pair	PAP-PSA	dxy	upper	0.95	0.0191025267875	29
+Low pi	species	PAM	pi	lower	0.05	0.00040130506437885427	29
+Low pi	species	PAP	pi	lower	0.05	0.000538753688290782	29
+Low pi	species	PSA	pi	lower	0.05	0.0003036515336066978	29
+Low Tajima's D	species	PAM	tajima_d	lower	0.05	-2.2348244280921863	29
+Low Tajima's D	species	PAP	tajima_d	lower	0.05	-2.259218971841135	29
+Low Tajima's D	species	PSA	tajima_d	lower	0.05	-1.9223885397988636	26
+High Tajima's D	species	PAM	tajima_d	upper	0.95	0.6055046244506874	29
+High Tajima's D	species	PAP	tajima_d	upper	0.95	-0.16853653779167083	29
+High Tajima's D	species	PSA	tajima_d	upper	0.95	0.741080583371808	26

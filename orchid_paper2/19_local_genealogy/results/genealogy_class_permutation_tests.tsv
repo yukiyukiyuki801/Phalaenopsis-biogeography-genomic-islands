@@ -1,0 +1,13 @@
+analysis	metric	alternative	comparison	n_balancing	n_comparator	median_balancing	median_comparator	median_difference	p_one_sided	n_permutations	q_BH_within_analysis
+all_650_phase_free	relative_mean_depth_median	balancing_greater	balancing_vs_unclassified	13	618	0.6547122856772343	0.4075135353382042	0.24719875033903	0.0274	49999	0.0365333333333333
+all_650_phase_free	relative_mean_depth_median	balancing_greater	balancing_vs_recurrent_selection	13	8	0.6547122856772343	0.3601153999046299	0.2945968857726043	0.02178	49999	0.03267
+all_650_phase_free	relative_mean_depth_median	balancing_greater	balancing_vs_allopatric_selection	13	7	0.6547122856772343	0.30141784046167	0.3532944452155643	0.00342	49999	0.01056
+all_650_phase_free	relative_max_depth_median	balancing_greater	balancing_vs_unclassified	13	618	1.3600009457671716	0.9951970760192468	0.3648038697479246	0.0827	49999	0.09924
+all_650_phase_free	relative_max_depth_median	balancing_greater	balancing_vs_recurrent_selection	13	8	1.3600009457671716	1.0713433988837486	0.2886575468834229	0.12358	49999	0.1348145454545454
+all_650_phase_free	relative_max_depth_median	balancing_greater	balancing_vs_allopatric_selection	13	7	1.3600009457671716	1.4723572337515147	-0.1123562879843431	0.71964	49999	0.71964
+all_650_phase_free	nearest_neighbor_mixing_median	balancing_greater	balancing_vs_unclassified	13	618	0.5714285714285714	0.5	0.0714285714285714	0.00254	49999	0.01056
+all_650_phase_free	nearest_neighbor_mixing_median	balancing_greater	balancing_vs_recurrent_selection	13	8	0.5714285714285714	0.4897108843537414	0.0817176870748299	0.01932	49999	0.03267
+all_650_phase_free	nearest_neighbor_mixing_median	balancing_greater	balancing_vs_allopatric_selection	13	7	0.5714285714285714	0.3571428571428571	0.2142857142857143	0.00396	49999	0.01056
+all_650_phase_free	species_separation_median	balancing_less	balancing_vs_unclassified	12	614	-0.000299641537159	0.0001558531886832	-0.0004554947258423	4e-05	49999	0.00048
+all_650_phase_free	species_separation_median	balancing_less	balancing_vs_recurrent_selection	12	8	-0.000299641537159	0.0001542989272728	-0.0004539404644318	0.0105	49999	0.021
+all_650_phase_free	species_separation_median	balancing_less	balancing_vs_allopatric_selection	12	7	-0.000299641537159	0.0009498029738391	-0.0012494445109981	0.0044	49999	0.01056

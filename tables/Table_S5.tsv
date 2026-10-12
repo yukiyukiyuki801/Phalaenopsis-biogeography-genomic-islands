@@ -1,0 +1,7 @@
+scenario	node	lower_Ma	upper_Ma	distribution	note
+givnish	Asparagus-Orchidaceae	102.0	120.0	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check
+givnish	Orchidaceae crown (Apostasia vs remaining orchids)	79.7	99.5	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check
+givnish	Platanthera vs sampled Epidendroideae	54.8	73.7	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check
+zhang	Asparagus-Orchidaceae	131.24	138.05	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check
+zhang	Orchidaceae crown (Apostasia vs remaining orchids)	97.08	102.56	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check
+zhang	Platanthera vs sampled Epidendroideae	74.5	79.7	B(L,U,0.025,0.025)	Secondary correlated node bounds; exact extraction requires author source/SI check

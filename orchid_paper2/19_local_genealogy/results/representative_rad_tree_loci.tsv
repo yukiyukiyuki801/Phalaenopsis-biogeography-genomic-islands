@@ -1,0 +1,6 @@
+locus_id	model_class	representative_score	alignment_sites	informative_snps	relative_mean_depth_median	nearest_neighbor_mixing_median	species_separation_median	phased_haplotypes	unique_haplotype_nodes	shared_exact_haplotype_nodes
+RAD01116	balancing_selection	0.236031611815956	169	15	0.6542515611	0.5018518519	-0.0001987732276	164	37	3
+RAD00902	recurrent_selection	0.3448036423221032	283	5	0.4068242375	0.4355865153	-3.643536202e-05	120	59	3
+RAD00418	allopatric_selection	0.3618426813634981	195	10	0.292080449	0.3499433458	0.0007325644525	148	51	1
+RAD00146	divergence_with_gene_flow	0.0	466	17	0.5233624304	0.2083987441	0.00771955124	146	29	5
+RAD00320	unclassified	0.034558066491476254	263	21	0.398243378	0.40625	0.0004789756331	162	103	2

@@ -1,0 +1,7 @@
+"start"	"success"	"logLik"	"AICc"	"message"
+1	TRUE	-26.6714194095281	63.0095054857229	""
+2	TRUE	-25.6577487786127	60.9821642238921	""
+3	FALSE	NA	NA	"function cannot be evaluated at initial parameters"
+4	FALSE	NA	NA	"function cannot be evaluated at initial parameters"
+5	TRUE	-26.5243736151681	62.7154138970029	""
+6	TRUE	-26.1480539624556	61.9627745915778	""

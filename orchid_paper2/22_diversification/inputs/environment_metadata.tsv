@@ -1,0 +1,2 @@
+source	raw_rows	unique_ages	min_Ma	max_Ma	reference_max_Ma	temperature_mean	temperature_sd	spline_df
+RPANDA InfTemp	17632	15363	0	67.5173	7	3.78802093633492	1.69271886964452	30

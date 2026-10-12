@@ -1,0 +1,30 @@
+lineage	original_population	n_individuals	primary_ba3_population	action	reason
+PAM	PALam	4	PALam_SAB	merge_with_SAB	n_below_5; same Paper 1 western/northern genetic cluster
+PAM	SAB	10	PALam_SAB	retain_and_receive	geographically closest defensible sampled PAM neighbor for PALam
+PAM	PON	11	PON	retain	n_at_least_5
+PAM	SK	7	SK	retain	n_at_least_5
+PAM	WJ	11	WJ	retain	n_at_least_5
+PAM	SUR	6	SUR	retain	n_at_least_5
+PAM	SUL	11	SUL	retain	n_at_least_5
+PAM	AMB	1	AMB_TUA	merge_with_TUA	n_below_5; Moluccas/Kai eastern group and TUA is geographically closer than SUL
+PAM	TUA	10	AMB_TUA	retain_and_receive	compatible eastern PAM/Kai-Moluccas unit
+PAM	PNG	10	PNG	retain	n_at_least_5
+PAM	QL	6	QL	retain	n_at_least_5
+PAP_PSA	TW	13	TW	retain	n_at_least_5
+PAP_PSA	BAT	1	BAT_FUG	merge_with_FUG	n_below_5; adjacent Batanes-Babuyan/northern-Luzon corridor
+PAP_PSA	FUG	5	BAT_FUG	retain_and_receive	closest compatible sampled northern-island population
+PAP_PSA	ILO	1	ILO_APL_CAG_APY	merge_north_Luzon	n_below_5; adjacent northern Luzon localities
+PAP_PSA	APL	2	ILO_APL_CAG_APY	merge_north_Luzon	n_below_5; adjacent northern Luzon localities
+PAP_PSA	CAG	3	ILO_APL_CAG_APY	merge_north_Luzon	n_below_5; adjacent northern Luzon localities
+PAP_PSA	APY	6	ILO_APL_CAG_APY	retain_and_receive	central recipient locality for adjacent northern Luzon samples
+PAP_PSA	AUR	8	AUR_CAS	retain_and_receive	CAS and AUR coordinates are nearly coincident
+PAP_PSA	CAS	1	AUR_CAS	merge_with_AUR	n_below_5; CAS and AUR coordinates are nearly coincident
+PAP_PSA	MAD	6	GAB_MAD	merge_with_GAB	closest sampled Luzon neighbor by coordinates
+PAP_PSA	GAB	5	GAB_MAD	merge_with_MAD	closest sampled Luzon neighbor by coordinates
+PAP_PSA	BUE	2	MAR_BUE_MDO	merge_with_MAR_MDO	n_below_5; geographically close southern Luzon-Mindoro set
+PAP_PSA	MAR	2	MAR_BUE_MDO	merge_with_BUE_MDO	n_below_5; geographically close southern Luzon-Mindoro set
+PAP_PSA	MDO	9	MAR_BUE_MDO	retain_and_receive	crosses Mindoro-Luzon boundary; sensitivity required
+PAP_PSA	PALap	10	PALap	retain	n_at_least_5
+PAP_PSA	LAM	1	LAM_DO	merge_PAP_singletons	low-confidence n=2 PAP population; kept separate from PSA
+PAP_PSA	DO	1	LAM_DO	merge_PAP_singletons	low-confidence n=2 PAP population; kept separate from PSA
+PAP_PSA	MDA	7	MDA	retain	PSA remains an independent population

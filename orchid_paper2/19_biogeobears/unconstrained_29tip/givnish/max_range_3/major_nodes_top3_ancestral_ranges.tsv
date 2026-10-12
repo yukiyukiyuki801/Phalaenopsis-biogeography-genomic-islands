@@ -1,0 +1,13 @@
+focal_node	node	n_target_tips	n_descendant_tips	target_is_monophyletic	rank	state_code	ancestral_range	probability
+all_29_tips	30	29	29	TRUE	1	B	Northern Luzon-Batanes-Babuyan	0.616987088938406
+all_29_tips	30	29	29	TRUE	2	B+C+G	Northern Luzon-Batanes-Babuyan + Southern Luzon-Bicol + Mindanao	0.10443224730996
+all_29_tips	30	29	29	TRUE	3	F+G	Palawan + Mindanao	0.0328909849214532
+post_ILO_28_tips	31	28	28	TRUE	1	B	Northern Luzon-Batanes-Babuyan	0.583275689076831
+post_ILO_28_tips	31	28	28	TRUE	2	C+G	Southern Luzon-Bicol + Mindanao	0.116518093736549
+post_ILO_28_tips	31	28	28	TRUE	3	C	Southern Luzon-Bicol	0.0372105098164159
+PAM_MRCA	33	11	11	TRUE	1	F	Palawan	0.468295500695033
+PAM_MRCA	33	11	11	TRUE	2	H	Borneo	0.274432757541947
+PAM_MRCA	33	11	11	TRUE	3	I	Java	0.0807895542061354
+PAP_PSA_MRCA	30	18	29	FALSE	1	B	Northern Luzon-Batanes-Babuyan	0.616987088938406
+PAP_PSA_MRCA	30	18	29	FALSE	2	B+C+G	Northern Luzon-Batanes-Babuyan + Southern Luzon-Bicol + Mindanao	0.10443224730996
+PAP_PSA_MRCA	30	18	29	FALSE	3	F+G	Palawan + Mindanao	0.0328909849214532

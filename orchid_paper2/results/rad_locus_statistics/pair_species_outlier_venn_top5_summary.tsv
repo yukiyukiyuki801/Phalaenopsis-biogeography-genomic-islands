@@ -1,0 +1,36 @@
+panel	set_labels	venn_region	n_loci
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP only	14
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PSA only	14
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAP-PSA only	24
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP & PAM-PSA only	12
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP & PAP-PSA only	2
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PSA & PAP-PSA only	2
+High FST (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	All three	1
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP only	7
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PSA only	5
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAP-PSA only	5
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP & PAM-PSA only	4
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PAP & PAP-PSA only	4
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	PAM-PSA & PAP-PSA only	6
+High dXY (upper 5%)	PAM-PAP / PAM-PSA / PAP-PSA	All three	14
+Low pi (lower 5%)	PAM / PAP / PSA	PAM only	16
+Low pi (lower 5%)	PAM / PAP / PSA	PAP only	12
+Low pi (lower 5%)	PAM / PAP / PSA	PSA only	16
+Low pi (lower 5%)	PAM / PAP / PSA	PAM & PAP only	7
+Low pi (lower 5%)	PAM / PAP / PSA	PAM & PSA only	3
+Low pi (lower 5%)	PAM / PAP / PSA	PAP & PSA only	7
+Low pi (lower 5%)	PAM / PAP / PSA	All three	3
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PAM only	12
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PAP only	13
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PSA only	23
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PAM & PAP only	15
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PAM & PSA only	2
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	PAP & PSA only	1
+Low Tajima's D (lower 5%)	PAM / PAP / PSA	All three	0
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PAM only	25
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PAP only	20
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PSA only	20
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PAM & PAP only	3
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PAM & PSA only	0
+High Tajima's D (upper 5%)	PAM / PAP / PSA	PAP & PSA only	5
+High Tajima's D (upper 5%)	PAM / PAP / PSA	All three	1

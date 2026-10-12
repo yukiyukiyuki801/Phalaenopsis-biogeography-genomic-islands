@@ -1,0 +1,13 @@
+scenario	parameter	ESS_chain1	ESS_chain2	ESS_combined	PSRF
+givnish_multipoint	t_n11	544.3	513.9	1061.7	1.0004
+givnish_multipoint	t_n12	6980.9	6285.1	13089.6	1.0001
+givnish_multipoint	t_n13	3077.7	2716.8	5698	1.0001
+givnish_multipoint	t_n14	2760.7	2611.4	5277.5	1.0006
+givnish_multipoint	t_n15	2878.1	2207.9	4952.5	1.0017
+givnish_multipoint	t_n16	1050.7	878.4	1993.2	1.0033
+givnish_multipoint	t_n17	2847.1	2930.8	5966.1	1
+givnish_multipoint	t_n18	2936.7	1833.6	4397.3	1.0045
+givnish_multipoint	t_n19	3498.8	3243.9	6612.1	1.0001
+givnish_multipoint	mu	5488.8	5272.6	10730.6	1.0001
+givnish_multipoint	sigma2	2684.6	2024.8	4593.6	1.0011
+givnish_multipoint	lnL	100001	100001	200002	1

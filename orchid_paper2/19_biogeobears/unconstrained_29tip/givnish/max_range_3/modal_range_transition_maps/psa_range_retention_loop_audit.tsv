@@ -1,0 +1,2 @@
+node	age_Ma	time_bin	parent_range	parent_probability	daughter1	daughter1_range	daughter1_probability	daughter2	daughter2_range	daughter2_probability	classification	minimum_modal_probability	descendant_tips	bin_id	region	retained_daughter	loop_species	interpretation
+43	1.4592500000000004	1–1.5	G	0.507832663288007	44	C	0.417338145591558	MDA	G	1.0	founder-like change	0.417338145591558	BUE,CAS,DO,GAB,LAM,MAR,MDA,MDO	1	G	MDA	PSA	PSA daughter retains parental range; not a sympatry event assignment

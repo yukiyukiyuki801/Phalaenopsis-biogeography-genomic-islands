@@ -1,0 +1,14 @@
+dataset	individuals_or_taxa	units	marker_count	site_type	analyses	notes
+Published SNP matrix	170: PAM87/PAP76/PSA7	29 localities	14,797 SNPs	variant only	Published baseline	Sun et al. (2026)
+Published LD matrix	170: PAM87/PAP76/PSA7	29 localities; 18 BA3 units	6,596 SNPs	variant only	NeighborNet; BA3-SNPs	PLINK2 indep-pairwise 50 10 0.1; no new MAF filtering
+Reconstructed calls	173: PAM88/PAP78/PSA7	29 localities	518,090 VCF records	variant + invariant records	VCF VCF scan and sequence extraction	Records include multi-base REF entries; not a single-base count
+Canonical target	173: PAM88/PAP78/PSA7	3 lineages	512,526 positions: 43,262 variant; 469,264 invariant	variant + invariant single bases	ANGSD target	Exclude multi-base reference-block records
+VCF VCF classification	173	PAM-PAP / PAM-PSA / PAP-PSA	695 / 658 / 671 operational loci	variant + invariant; plastid included	Fig5 original class comparison; S17-S19	Central25 dXY and species-specific pi OR; explicit historical definition
+Nuclear VCF summaries	173	PAM-PAP / PAM-PSA / PAP-PSA	669 / 636 / 650 loci	variant + invariant; nuclear only	Diversity summaries; genealogy source	At least 100 bases and 3 informative SNPs; 70% callability
+ANGSD primary	173	PAM-PAP / PAM-PSA / PAP-PSA	496 / 486 / 526 loci	likelihoods at invariant-inclusive target	Estimator and class sensitivities	At least 100 bases and 3 informative SNPs; existing target includes plastid
+Common nuclear outlier set	173	3 pair comparisons or 3 lineages	576 loci	variant + invariant	5% overlaps and 49,999 permutations	FST/dXY pair-specific; pi/D lineage-specific
+RAD dating alignment	94 selected: 47 PAM +47 PAP/PSA	29 consensus ingroup tips +PEQ	274 loci; 79,225 nucleotides =266 nuclear/73,747nt +8 plastid/5,478nt	variant + invariant; nuclear and plastid	Unconstrained BEAST; calibration sensitivity	Real reference outgroup; IUPAC consensus; same partition/clock for nuclear and plastid; sensitivity needed
+Public calibration alignment	10 public taxa	8 orchids +Asparagus +rice	353 strict single-copy orthologues; 169,668 amino acids	amino-acid alignment	MCMCTree nuclear timescale	No project-supplied WGS; PSA absent
+Downstream phylogenetic samples	29 population tips; PEQ removed	2 separate calibration scenarios	1 MCC +100 posterior trees per scenario	dated chronograms	BioGeoBEARS and climate occupancy	BAMM/RPANDA use MCC only; BSM 100 histories per selected MCC model
+PAP-PSA all-locus genealogy	85: PAP78/PSA7 +reference sequence	2 lineages	650 loci attempted; 647 usable normalized metrics	invariant-inclusive IUPAC diploid alignments	Fig6; complete-background contrasts	500 balanced 7-versus-7 resamples; all650 trees completed
+Functional candidates	PAP-PSA original classification	14 nuclear RAD candidates	9 nearby orchid genes; 8 Arabidopsis homologs	nearest/overlapping mRNA within10kb	Table S10	GO single-gene support not reported as robust enrichment

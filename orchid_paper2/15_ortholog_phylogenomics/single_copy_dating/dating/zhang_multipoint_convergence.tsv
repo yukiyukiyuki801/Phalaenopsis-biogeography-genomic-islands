@@ -1,0 +1,13 @@
+scenario	parameter	ESS_chain1	ESS_chain2	ESS_combined	PSRF
+zhang_multipoint	t_n11	560.6	619.8	1151.4	1.0017
+zhang_multipoint	t_n12	15842.6	15062.8	30258	1
+zhang_multipoint	t_n13	12928	11507.9	25216.7	1
+zhang_multipoint	t_n14	4874.6	4574.4	9376.1	1.0003
+zhang_multipoint	t_n15	13167.8	12404.1	25550.4	1.0001
+zhang_multipoint	t_n16	789.7	734.2	1516.3	1.0005
+zhang_multipoint	t_n17	2395.2	2289	4696	1.0001
+zhang_multipoint	t_n18	2676.4	2558	5094.4	1.0007
+zhang_multipoint	t_n19	3185	3111.4	6020.3	1.0001
+zhang_multipoint	mu	5224.2	4819.1	9159.9	1.0004
+zhang_multipoint	sigma2	7187.6	5096.3	12359.9	1.0002
+zhang_multipoint	lnL	99036.9	100001	198302.7	1

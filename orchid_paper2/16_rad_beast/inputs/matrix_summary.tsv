@@ -1,0 +1,12 @@
+populations	29
+outgroup	PEQ
+individuals_collapsed	94
+callable_bed_clusters	2344
+clusters_with_filtered_vcf_sites	2333
+rejected_fewer_than_min_sites	842
+rejected_tip_missingness	1217
+retained_loci	274
+alignment_sites	79225
+site_population_call_threshold	0.7
+min_locus_callable_sites	100
+max_tip_locus_missing	0.5

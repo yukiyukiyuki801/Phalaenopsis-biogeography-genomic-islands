@@ -1,0 +1,6 @@
+stage	n_loci
+callable_bed_clusters	2344
+clusters_with_filtered_vcf_sites	2333
+rejected_fewer_than_min_sites	842
+rejected_tip_missingness	1217
+retained	274

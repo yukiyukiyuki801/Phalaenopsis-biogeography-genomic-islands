@@ -1,0 +1,2 @@
+calibration	tree_id	model	family	tips	crown_Ma	k	logLik	AICc	beta_lambda	beta_mu	successful_starts	starts_within_0.01_logLik	sampling_fraction	spline_df	dt_Myr
+givnish	mcc	E3	E	29	2.30489	3	-20.4270463329946	47.8140926659892	NA	31.367351828097	6	1	1	30	0.001

@@ -1,0 +1,4 @@
+call_rate_per_population	0.7
+min_callable_bases	100
+min_informative_snps	3
+FST_estimator	Hudson ratio of sums

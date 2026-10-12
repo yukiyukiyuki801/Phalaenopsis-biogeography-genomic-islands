@@ -1,0 +1,5 @@
+EXECUTE FILE='orchid_paper2/results/neighbornet/splitstree_170_individuals_distances.nex';
+UPDATE;
+EXPORTGRAPHICS FORMAT=SVG FILE='orchid_paper2/results/neighbornet/splitstree_170_individuals_neighbornet.svg' REPLACE=yes;
+EXPORTGRAPHICS FORMAT=PDF FILE='orchid_paper2/results/neighbornet/splitstree_170_individuals_neighbornet.pdf' REPLACE=yes;
+QUIT;

@@ -1,0 +1,4 @@
+group	min_individuals	retained_depth_profile_sites	median_total_depth	q995_total_depth	max_total_depth_filter
+PAM	62	270910	3624	100000	100000
+PAP	55	293378	2911	100000	100000
+PSA	5	329746	113	37153	37153

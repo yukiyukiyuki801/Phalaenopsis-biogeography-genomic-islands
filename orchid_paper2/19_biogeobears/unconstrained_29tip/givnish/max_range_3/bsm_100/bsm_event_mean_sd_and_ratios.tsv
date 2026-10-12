@@ -1,0 +1,8 @@
+event_code	event_type	mean_count	sd_count	percent_all_events	event_class	percent_within_class
+j	Founder-event/jump dispersal	15.59	0.995900688732658	55.6785714285714	cladogenetic	55.6785714285714
+a	Range-switching dispersal	0	0	0	anagenetic	NA
+d	Range-expansion dispersal	0	0	0	anagenetic	NA
+e	Local extinction/range contraction	0	0	0	anagenetic	NA
+v	Vicariance	0.44	0.729189393585214	1.57142857142857	cladogenetic	1.57142857142857
+y	Narrow sympatry	11.97	0.999545351192686	42.75	cladogenetic	42.75
+s	Subset sympatry	0	0	0	cladogenetic	0

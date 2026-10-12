@@ -1,0 +1,9 @@
+item	value
+PAM_individuals	88
+PAP_individuals	78
+PSA_individuals	7
+target_sites	512526
+variant_target_sites	43262
+invariant_target_sites	469264
+operational_rad_loci	2333
+rad_locus_definition	Callable BED intervals joined when separated by <=500 bp

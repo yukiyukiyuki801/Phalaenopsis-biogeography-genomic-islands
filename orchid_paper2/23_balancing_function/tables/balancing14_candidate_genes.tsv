@@ -1,0 +1,17 @@
+locus_id	model_class	chrom	locus_start	locus_end	distance_bp	transcript_id	feature_id	gene_id	product	gene_start	gene_end	strand	arabidopsis_ids	arabidopsis_symbols
+RAD00505	balancing_selection	NW_018164500.1	539021	539257	0	XM_020717128	rna-XM_020717128.1	gene-LOC110019464	malate dehydrogenase, chloroplastic, transcript variant X1	535451	562858	-	AT3G47520	MDH
+RAD00505	balancing_selection	NW_018164500.1	539021	539257	0	XM_020717129	rna-XM_020717129.1	gene-LOC110019464	malate dehydrogenase, chloroplastic, transcript variant X2	535451	562604	-	AT3G47520	MDH
+RAD00521	balancing_selection	NW_018164503.1	1477469	1478603	0	XM_020717216	rna-XM_020717216.1	gene-LOC110019525	beta-glucosidase 6	1421880	1485570	+		
+RAD01033	balancing_selection	NW_018164724.1	252867	253143	0	XM_020725148	rna-XM_020725148.1	gene-LOC110024949	carbon catabolite repressor protein 4 homolog 6, transcript variant X2	201144	253215	-	AT5G11350	AT5G11350
+RAD01033	balancing_selection	NW_018164724.1	252867	253143	0	XM_020725149	rna-XM_020725149.1	gene-LOC110024949	carbon catabolite repressor protein 4 homolog 6, transcript variant X3	201144	253215	-	AT5G11350	AT5G11350
+RAD01033	balancing_selection	NW_018164724.1	252867	253143	0	XM_020725147	rna-XM_020725147.1	gene-LOC110024949	carbon catabolite repressor protein 4 homolog 6, transcript variant X1	206814	253215	-	AT5G11350	AT5G11350
+RAD01116	balancing_selection	NW_018164789.1	1899099	1899271	0	XM_020726840	rna-XM_020726840.1	gene-LOC110026063	DNA mismatch repair protein MSH7, transcript variant X1	1850597	1899752	+	AT3G24495	MSH7
+RAD01116	balancing_selection	NW_018164789.1	1899099	1899271	0	XM_020726841	rna-XM_020726841.1	gene-LOC110026063	DNA mismatch repair protein MSH7, transcript variant X2	1851132	1899752	+	AT3G24495	MSH7
+RAD01142	balancing_selection	NW_018164808.1	102116	102356	6795	XM_020727256	rna-XM_020727256.1	gene-LOC110026358	uncharacterized LOC110026358	94575	95321	+	AT3G46920	AT3G46920
+RAD01425	balancing_selection	NW_018164992.1	3723631	3723948	3334	XM_020731294	rna-XM_020731294.1	gene-LOC110029140	glycine-rich domain-containing protein 1-like	3689382	3720297	+	AT2G22660	AT2G22660
+RAD01430	balancing_selection	NW_018165008.1	503937	504556	0	XM_020731651	rna-XM_020731651.1	gene-LOC110029384	uncharacterized LOC110029384	503709	505325	+	AT4G35280	DAZ2
+RAD01827	balancing_selection	NW_018165626.1	58724	59155	0	XM_020737436	rna-XM_020737436.1	gene-LOC110033454	peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X1	40409	70639	+	AT5G13410	AT5G13410
+RAD01827	balancing_selection	NW_018165626.1	58724	59155	0	XM_020737437	rna-XM_020737437.1	gene-LOC110033454	peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X2	40409	69819	+	AT5G13410	AT5G13410
+RAD01827	balancing_selection	NW_018165626.1	58724	59155	0	XM_020737438	rna-XM_020737438.1	gene-LOC110033454	peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X3	40409	69804	+	AT5G13410	AT5G13410
+RAD01872	balancing_selection	NW_018165746.1	1008776	1009056	0	XM_020737999	rna-XM_020737999.1	gene-LOC110033861	plant UBX domain-containing protein 7, transcript variant X1	990172	1009161	-	AT1G14570	AT1G14570
+RAD01872	balancing_selection	NW_018165746.1	1008776	1009056	0	XM_020738001	rna-XM_020738001.1	gene-LOC110033861	plant UBX domain-containing protein 7, transcript variant X2	990174	1009160	-	AT1G14570	AT1G14570

@@ -1,0 +1,10 @@
+locus_id	orchid_gene	distance_bp	n_mrna_isoforms	reference_products	arabidopsis_ids	arabidopsis_symbols
+RAD00505	gene-LOC110019464	0	2	malate dehydrogenase, chloroplastic, transcript variant X1; malate dehydrogenase, chloroplastic, transcript variant X2	AT3G47520	MDH
+RAD00521	gene-LOC110019525	0	1	beta-glucosidase 6		
+RAD01033	gene-LOC110024949	0	3	carbon catabolite repressor protein 4 homolog 6, transcript variant X1; carbon catabolite repressor protein 4 homolog 6, transcript variant X2; carbon catabolite repressor protein 4 homolog 6, transcript variant X3	AT5G11350	AT5G11350
+RAD01116	gene-LOC110026063	0	2	DNA mismatch repair protein MSH7, transcript variant X1; DNA mismatch repair protein MSH7, transcript variant X2	AT3G24495	MSH7
+RAD01142	gene-LOC110026358	6795	1	uncharacterized LOC110026358	AT3G46920	AT3G46920
+RAD01425	gene-LOC110029140	3334	1	glycine-rich domain-containing protein 1-like	AT2G22660	AT2G22660
+RAD01430	gene-LOC110029384	0	1	uncharacterized LOC110029384	AT4G35280	DAZ2
+RAD01827	gene-LOC110033454	0	3	peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X1; peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X2; peptidyl-prolyl cis-trans isomerase FKBP19, chloroplastic, transcript variant X3	AT5G13410	AT5G13410
+RAD01872	gene-LOC110033861	0	2	plant UBX domain-containing protein 7, transcript variant X1; plant UBX domain-containing protein 7, transcript variant X2	AT1G14570	AT1G14570

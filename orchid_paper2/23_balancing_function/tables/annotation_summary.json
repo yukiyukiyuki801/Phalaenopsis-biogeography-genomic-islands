@@ -1,0 +1,15 @@
+{
+  "n_nuclear_loci": 650,
+  "n_balancing_loci": 14,
+  "candidate_annotation_status": {
+    "no_mrna_within_10kb": 5,
+    "mapped": 8,
+    "nearest_mrna_no_AT_mapping": 1
+  },
+  "n_candidate_orchid_genes": 9,
+  "n_candidate_mrna_ids": 16,
+  "n_candidate_arabidopsis_ids": 8,
+  "n_background_arabidopsis_ids": 492,
+  "distance_cutoff_bp": 10000,
+  "assembly": "#!genome-build-accession NCBI_Assembly:GCF_001263595.1"
+}

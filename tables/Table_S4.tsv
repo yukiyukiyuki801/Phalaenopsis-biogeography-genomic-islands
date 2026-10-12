@@ -1,0 +1,11 @@
+code	species	sequence_input	accession	caution_or_role
+PAM	Phalaenopsis amabilis	RNA-seq -> assembled transcripts -> TransDecoder proteins	PRJNA464197; SRR7125083-SRR7125085	White Baiyuzan cultivar; identity conditional; purple cultivar excluded
+PAP	Phalaenopsis aphrodite	TSA -> TransDecoder proteins	GENW01.1 / GENW00000000	Downloaded genome GCA_003013225.1 not the dating protein input
+PEQ	Phalaenopsis equestris	annotated genome primary proteins	GCF_001263595.1	Also RAD mapping reference and outgroup coordinates
+DCAT	Dendrobium catenatum	annotated genome primary proteins	GCF_001605985.2	
+DNOB	Dendrobium nobile	annotated genome proteins	GCA_022539455.1	
+PGUA	Platanthera guangdongensis	annotated genome proteins	GCA_039583875.1	
+VPLA	Vanilla planifolia	annotated genome proteins	GCA_016413895.1	
+APO	Apostasia shenzhenica	annotated genome proteins	GCA_002786265.1	Basal-orchid sampled lineage
+ASPA	Asparagus officinalis	annotated genome primary proteins	GCF_001876935.1	Non-orchid Asparagales
+RICE	Oryza sativa Japonica Group	annotated genome primary proteins	GCF_001433935.1	Monocot rooting taxon

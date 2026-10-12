@@ -1,0 +1,15 @@
+event_code	event_type	mean_count	sd_count	percent_all_events	event_class	percent_within_class	calibration
+j	Founder-event/jump dispersal	14.32	1.68102902588224	51.1428571428571	cladogenetic	51.1428571428571	Zhang-calibrated
+a	Range-switching dispersal	0	0	0	anagenetic	NA	Zhang-calibrated
+d	Range-expansion dispersal	0	0	0	anagenetic	NA	Zhang-calibrated
+e	Local extinction/range contraction	0	0	0	anagenetic	NA	Zhang-calibrated
+v	Vicariance	0.89	0.919980236941879	3.17857142857143	cladogenetic	3.17857142857143	Zhang-calibrated
+y	Narrow sympatry	11.52	1.07759552765039	41.1428571428571	cladogenetic	41.1428571428571	Zhang-calibrated
+s	Subset sympatry	1.27	1.4964942196664	4.53571428571429	cladogenetic	4.53571428571429	Zhang-calibrated
+j	Founder-event/jump dispersal	15.59	0.995900688732658	55.6785714285714	cladogenetic	55.6785714285714	Givnish-calibrated
+a	Range-switching dispersal	0	0	0	anagenetic	NA	Givnish-calibrated
+d	Range-expansion dispersal	0	0	0	anagenetic	NA	Givnish-calibrated
+e	Local extinction/range contraction	0	0	0	anagenetic	NA	Givnish-calibrated
+v	Vicariance	0.44	0.729189393585214	1.57142857142857	cladogenetic	1.57142857142857	Givnish-calibrated
+y	Narrow sympatry	11.97	0.999545351192686	42.75	cladogenetic	42.75	Givnish-calibrated
+s	Subset sympatry	0	0	0	cladogenetic	0	Givnish-calibrated

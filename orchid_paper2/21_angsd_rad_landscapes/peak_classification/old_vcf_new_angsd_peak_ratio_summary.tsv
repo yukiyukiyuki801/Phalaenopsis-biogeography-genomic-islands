@@ -1,0 +1,61 @@
+dataset	pair	classifier	model	n	n_all_loci	n_classified	fraction_all_loci	fraction_classified_loci
+Old VCF	PAM-PAP	Paper: FST+dXY 5%	divergence_with_gene_flow	1	695	35	0.0014388489208633094	0.02857142857142857
+Old VCF	PAM-PAP	Paper: FST+dXY 5%	allopatric_selection	34	695	35	0.04892086330935252	0.9714285714285714
+Old VCF	PAM-PAP	Paper: FST+dXY 5%	recurrent_selection	0	695	35	0.0	0.0
+Old VCF	PAM-PAP	Paper: FST+dXY 5%	balancing_selection	0	695	35	0.0	0.0
+Old VCF	PAM-PAP	Paper: FST+dXY 5%	unclassified	660	695	35	0.9496402877697842	nan
+Old VCF	PAM-PAP	Orchid: FST+dXY+pi	divergence_with_gene_flow	1	695	11	0.0014388489208633094	0.09090909090909091
+Old VCF	PAM-PAP	Orchid: FST+dXY+pi	allopatric_selection	6	695	11	0.008633093525179856	0.5454545454545454
+Old VCF	PAM-PAP	Orchid: FST+dXY+pi	recurrent_selection	3	695	11	0.004316546762589928	0.2727272727272727
+Old VCF	PAM-PAP	Orchid: FST+dXY+pi	balancing_selection	1	695	11	0.0014388489208633094	0.09090909090909091
+Old VCF	PAM-PAP	Orchid: FST+dXY+pi	unclassified	684	695	11	0.9841726618705036	nan
+Old VCF	PAM-PSA	Paper: FST+dXY 5%	divergence_with_gene_flow	3	658	33	0.004559270516717325	0.09090909090909091
+Old VCF	PAM-PSA	Paper: FST+dXY 5%	allopatric_selection	30	658	33	0.04559270516717325	0.9090909090909091
+Old VCF	PAM-PSA	Paper: FST+dXY 5%	recurrent_selection	0	658	33	0.0	0.0
+Old VCF	PAM-PSA	Paper: FST+dXY 5%	balancing_selection	0	658	33	0.0	0.0
+Old VCF	PAM-PSA	Paper: FST+dXY 5%	unclassified	625	658	33	0.9498480243161094	nan
+Old VCF	PAM-PSA	Orchid: FST+dXY+pi	divergence_with_gene_flow	5	658	24	0.007598784194528876	0.20833333333333334
+Old VCF	PAM-PSA	Orchid: FST+dXY+pi	allopatric_selection	9	658	24	0.013677811550151976	0.375
+Old VCF	PAM-PSA	Orchid: FST+dXY+pi	recurrent_selection	4	658	24	0.0060790273556231	0.16666666666666666
+Old VCF	PAM-PSA	Orchid: FST+dXY+pi	balancing_selection	6	658	24	0.00911854103343465	0.25
+Old VCF	PAM-PSA	Orchid: FST+dXY+pi	unclassified	634	658	24	0.9635258358662614	nan
+Old VCF	PAP-PSA	Paper: FST+dXY 5%	divergence_with_gene_flow	4	671	35	0.005961251862891207	0.11428571428571428
+Old VCF	PAP-PSA	Paper: FST+dXY 5%	allopatric_selection	30	671	35	0.044709388971684055	0.8571428571428571
+Old VCF	PAP-PSA	Paper: FST+dXY 5%	recurrent_selection	0	671	35	0.0	0.0
+Old VCF	PAP-PSA	Paper: FST+dXY 5%	balancing_selection	1	671	35	0.0014903129657228018	0.02857142857142857
+Old VCF	PAP-PSA	Paper: FST+dXY 5%	unclassified	636	671	35	0.9478390461997019	nan
+Old VCF	PAP-PSA	Orchid: FST+dXY+pi	divergence_with_gene_flow	1	671	31	0.0014903129657228018	0.03225806451612903
+Old VCF	PAP-PSA	Orchid: FST+dXY+pi	allopatric_selection	7	671	31	0.010432190760059613	0.22580645161290322
+Old VCF	PAP-PSA	Orchid: FST+dXY+pi	recurrent_selection	9	671	31	0.013412816691505217	0.2903225806451613
+Old VCF	PAP-PSA	Orchid: FST+dXY+pi	balancing_selection	14	671	31	0.020864381520119227	0.45161290322580644
+Old VCF	PAP-PSA	Orchid: FST+dXY+pi	unclassified	640	671	31	0.9538002980625931	nan
+New ANGSD	PAM-PAP	Paper: FST+dXY 5%	divergence_with_gene_flow	1	496	25	0.0020161290322580645	0.04
+New ANGSD	PAM-PAP	Paper: FST+dXY 5%	allopatric_selection	24	496	25	0.04838709677419355	0.96
+New ANGSD	PAM-PAP	Paper: FST+dXY 5%	recurrent_selection	0	496	25	0.0	0.0
+New ANGSD	PAM-PAP	Paper: FST+dXY 5%	balancing_selection	0	496	25	0.0	0.0
+New ANGSD	PAM-PAP	Paper: FST+dXY 5%	unclassified	471	496	25	0.9495967741935484	nan
+New ANGSD	PAM-PAP	Orchid: FST+dXY+pi	divergence_with_gene_flow	0	496	12	0.0	0.0
+New ANGSD	PAM-PAP	Orchid: FST+dXY+pi	allopatric_selection	9	496	12	0.018145161290322582	0.75
+New ANGSD	PAM-PAP	Orchid: FST+dXY+pi	recurrent_selection	2	496	12	0.004032258064516129	0.16666666666666666
+New ANGSD	PAM-PAP	Orchid: FST+dXY+pi	balancing_selection	1	496	12	0.0020161290322580645	0.08333333333333333
+New ANGSD	PAM-PAP	Orchid: FST+dXY+pi	unclassified	484	496	12	0.9758064516129032	nan
+New ANGSD	PAM-PSA	Paper: FST+dXY 5%	divergence_with_gene_flow	2	486	25	0.00411522633744856	0.08
+New ANGSD	PAM-PSA	Paper: FST+dXY 5%	allopatric_selection	23	486	25	0.047325102880658436	0.92
+New ANGSD	PAM-PSA	Paper: FST+dXY 5%	recurrent_selection	0	486	25	0.0	0.0
+New ANGSD	PAM-PSA	Paper: FST+dXY 5%	balancing_selection	0	486	25	0.0	0.0
+New ANGSD	PAM-PSA	Paper: FST+dXY 5%	unclassified	461	486	25	0.948559670781893	nan
+New ANGSD	PAM-PSA	Orchid: FST+dXY+pi	divergence_with_gene_flow	0	486	26	0.0	0.0
+New ANGSD	PAM-PSA	Orchid: FST+dXY+pi	allopatric_selection	16	486	26	0.03292181069958848	0.6153846153846154
+New ANGSD	PAM-PSA	Orchid: FST+dXY+pi	recurrent_selection	4	486	26	0.00823045267489712	0.15384615384615385
+New ANGSD	PAM-PSA	Orchid: FST+dXY+pi	balancing_selection	6	486	26	0.012345679012345678	0.23076923076923078
+New ANGSD	PAM-PSA	Orchid: FST+dXY+pi	unclassified	460	486	26	0.9465020576131687	nan
+New ANGSD	PAP-PSA	Paper: FST+dXY 5%	divergence_with_gene_flow	2	526	27	0.0038022813688212928	0.07407407407407407
+New ANGSD	PAP-PSA	Paper: FST+dXY 5%	allopatric_selection	25	526	27	0.04752851711026616	0.9259259259259259
+New ANGSD	PAP-PSA	Paper: FST+dXY 5%	recurrent_selection	0	526	27	0.0	0.0
+New ANGSD	PAP-PSA	Paper: FST+dXY 5%	balancing_selection	0	526	27	0.0	0.0
+New ANGSD	PAP-PSA	Paper: FST+dXY 5%	unclassified	499	526	27	0.9486692015209125	nan
+New ANGSD	PAP-PSA	Orchid: FST+dXY+pi	divergence_with_gene_flow	1	526	29	0.0019011406844106464	0.034482758620689655
+New ANGSD	PAP-PSA	Orchid: FST+dXY+pi	allopatric_selection	6	526	29	0.011406844106463879	0.20689655172413793
+New ANGSD	PAP-PSA	Orchid: FST+dXY+pi	recurrent_selection	12	526	29	0.022813688212927757	0.41379310344827586
+New ANGSD	PAP-PSA	Orchid: FST+dXY+pi	balancing_selection	10	526	29	0.019011406844106463	0.3448275862068966
+New ANGSD	PAP-PSA	Orchid: FST+dXY+pi	unclassified	497	526	29	0.9448669201520913	nan

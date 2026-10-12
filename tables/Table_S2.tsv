@@ -1,5 +1,5 @@
 lineage	original_population	n_individuals	primary_ba3_population	action	reason
-PAM	PALam	4	PALam_SAB	merge_with_SAB	n_below_5; same Paper 1 western/northern genetic cluster
+PAM	PALam	4	PALam_SAB	merge_with_SAB	n_below_5; same Sun et al. (2026) western/northern genetic cluster
 PAM	SAB	10	PALam_SAB	retain_and_receive	geographically closest defensible sampled PAM neighbor for PALam
 PAM	PON	11	PON	retain	n_at_least_5
 PAM	SK	7	SK	retain	n_at_least_5

@@ -2,8 +2,8 @@
 suppressPackageStartupMessages({library(BioGeoBEARS); library(ape)})
 root <- normalizePath(Sys.getenv("ORCHID_PAPER2_ROOT"), mustWork=TRUE)
 base_env <- Sys.getenv("BGB_BASE",unset="")
-base <- if(nzchar(base_env)) normalizePath(base_env,mustWork=TRUE) else
- file.path(root,"orchid_paper2/results/biogeobears_unified29")
+if(!nzchar(base_env)) stop("Set BGB_BASE to a calibration-specific unconstrained_29tip/<calibration>/max_range_3 directory")
+base <- normalizePath(base_env,mustWork=TRUE)
 out <- file.path(base,"bsm_100"); dir.create(out,recursive=TRUE,showWarnings=FALSE)
 model <- trimws(readLines(file.path(base,"selected_mcc_model.txt"),n=1))
 load(file.path(base,"runs","mcc",paste0(model,".RData")))

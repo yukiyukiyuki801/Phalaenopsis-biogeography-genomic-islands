@@ -2,8 +2,8 @@
 suppressPackageStartupMessages({library(BioGeoBEARS); library(ape)})
 root <- normalizePath(Sys.getenv("ORCHID_PAPER2_ROOT"), mustWork=TRUE)
 base_env <- Sys.getenv("BGB_BASE",unset="")
-base <- if(nzchar(base_env)) normalizePath(base_env,mustWork=TRUE) else
- file.path(root,"orchid_paper2/results/biogeobears_unified29")
+if(!nzchar(base_env)) stop("Set BGB_BASE to a calibration-specific unconstrained_29tip/<calibration>/max_range_3 directory")
+base <- normalizePath(base_env,mustWork=TRUE)
 max_range_size <- as.integer(readLines(file.path(base,"inputs","max_range_size.txt"),n=1))
 dataset_label <- if(file.exists(file.path(base,"inputs","dataset_label.txt")))
  trimws(readLines(file.path(base,"inputs","dataset_label.txt"),n=1)) else "Unified 29-tip BioGeoBEARS"
@@ -39,7 +39,7 @@ tr$root.edge <- NULL
 tipranges <- getranges_from_LagrangePHYLIP(lgdata_fn=file.path(base,"inputs","geography.data"))
 scriptdir <- normalizePath(system.file("extdata/a_scripts",package="BioGeoBEARS"))
 probs <- as.matrix(res$ML_marginal_prob_each_state_at_branch_top_AT_node)
-popmeta <- read.delim(file.path(root,"orchid_paper2/17_herodotools/inputs/bioregions/tip_to_thesis_bioregion.tsv"),
+popmeta <- read.delim(file.path(root,"orchid_paper2/19_biogeobears/bioregions/tip_to_thesis_bioregion.tsv"),
  stringsAsFactors=FALSE)
 species_by_tip <- setNames(ifelse(popmeta$lineage=="PAM","PAM","PAP"),popmeta$tip)
 species_by_tip["MDA"] <- "PSA"

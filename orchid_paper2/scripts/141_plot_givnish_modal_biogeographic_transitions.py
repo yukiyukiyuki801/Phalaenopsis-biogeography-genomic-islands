@@ -37,7 +37,7 @@ XY = {v[0]: LABEL_XY[k] for k, v in REGIONS.items()}
 BINS = [(1.5, 3 if args.calibration == 'zhang' else 2.5), (1, 1.5), (.5, 1), (0, .5)]
 SPECIES_COLORS = {'PAM': '#D55E00', 'PAP': '#009E73', 'PSA': '#7B2CBF',
                   'shared ancestor': '#555555'}
-with (ROOT / '17_herodotools/inputs/bioregions/tip_to_thesis_bioregion.tsv').open() as handle:
+with (ROOT / '19_biogeobears/bioregions/tip_to_thesis_bioregion.tsv').open() as handle:
     SPECIES = {r['tip']: ('PSA' if r['tip'] == 'MDA' else 'PAM' if r['lineage'] == 'PAM' else 'PAP')
                for r in csv.DictReader(handle, delimiter='\t')}
 
@@ -211,7 +211,7 @@ def add_polygon(ax, rings, facecolor, edgecolor, lw, zorder):
         ax.add_artist(patch)
 
 
-ds = ogr.Open(str(ROOT / '17_herodotools/inputs/bioregions/biogeographic_regions.gpkg'))
+ds = ogr.Open(str(ROOT / '19_biogeobears/bioregions/biogeographic_regions.gpkg'))
 layer = ds.GetLayerByName('bioregions')
 regions = [(feature.GetField('region_id'), json.loads(feature.GetGeometryRef().ExportToJson())) for feature in layer]
 assert {r[0] for r in regions} == set(REGIONS)

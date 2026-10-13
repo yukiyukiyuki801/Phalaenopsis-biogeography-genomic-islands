@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
-"""Build thesis-derived bioregion polygons and 29-tip Herodotools rasters."""
+"""Build biogeographic polygons and the 29-tip assignments used by BioGeoBEARS."""
 from pathlib import Path
-from osgeo import ogr, osr, gdal
+from osgeo import ogr, osr
 import csv
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = ROOT / "17_herodotools"
+BASE = ROOT / "19_biogeobears"
 GADM = BASE / "inputs" / "gadm41"
-OUT = BASE / "inputs" / "bioregions"
-REG_RAST = OUT / "region_rasters_0p25deg"
-TIP_RAST = OUT / "tip_rasters_0p25deg"
-for p in (OUT, REG_RAST, TIP_RAST): p.mkdir(parents=True, exist_ok=True)
+OUT = BASE / "bioregions"
+OUT.mkdir(parents=True, exist_ok=True)
 
 SRS = osr.SpatialReference(); SRS.ImportFromEPSG(4326)
 
@@ -128,42 +126,4 @@ with open(OUT/"tip_to_thesis_bioregion.tsv","w",newline="") as f:
     w=csv.writer(f,delimiter="\t"); w.writerow(["tip","lineage","region_id","region_name"])
     for tip in sorted(assign): w.writerow([tip,lineage[tip],assign[tip],labels[assign[tip]]])
 
-# Common 0.25-degree Indo-Pacific grid, binary region and tip rasters.
-xmin,ymin,xmax,ymax=104.0,-21.0,158.0,27.0; res=0.25
-nx=int((xmax-xmin)/res); ny=int((ymax-ymin)/res)
-memdrv=gdal.GetDriverByName("MEM"); tifdrv=gdal.GetDriverByName("GTiff")
-def write_raster(path,geom):
-    mem=memdrv.Create("",nx,ny,1,gdal.GDT_Byte)
-    mem.SetGeoTransform((xmin,res,0,ymax,0,-res)); mem.SetProjection(SRS.ExportToWkt())
-    b=mem.GetRasterBand(1); b.Fill(0); b.SetNoDataValue(0)
-    vds=ogr.GetDriverByName("Memory").CreateDataSource(""); vl=vds.CreateLayer("x",SRS,ogr.wkbUnknown)
-    vf=ogr.Feature(vl.GetLayerDefn()); vf.SetGeometry(geom); vl.CreateFeature(vf)
-    gdal.RasterizeLayer(mem,[1],vl,burn_values=[1])
-    tifdrv.CreateCopy(str(path),mem,options=["COMPRESS=DEFLATE","TILED=YES"]); mem=None; vds=None
-for rid,g in regions.items(): write_raster(REG_RAST/f"region_{rid}_presence_0p25deg.tif",g)
-for tip,rid in assign.items(): write_raster(TIP_RAST/f"{tip}_range_0p25deg.tif",regions[rid])
-
-# Cell-by-tip presence/absence table expected by the Herodotools workflow.
-import numpy as np
-tip_order=sorted(assign)
-arrays=[]
-for tip in tip_order:
-    d=gdal.Open(str(TIP_RAST/f"{tip}_range_0p25deg.tif")); arrays.append(d.ReadAsArray().astype(np.uint8)); d=None
-with open(OUT/"grid_0p25deg_cell_by_tip_presence_absence.tsv","w",newline="") as f:
-    w=csv.writer(f,delimiter="\t"); w.writerow(["cell_id","longitude","latitude"]+tip_order)
-    cell=0
-    for row in range(ny):
-        lat=ymax-(row+.5)*res
-        for col in range(nx):
-            vals=[int(a[row,col]) for a in arrays]
-            if any(vals):
-                cell+=1; lon=xmin+(col+.5)*res; w.writerow([cell,f"{lon:.3f}",f"{lat:.3f}"]+vals)
-
-with open(OUT/"bioregion_build_manifest.tsv","w",newline="") as f:
-    w=csv.writer(f,delimiter="\t"); w.writerow(["item","value"])
-    for x in [("source","GADM 4.1 administrative/island polygons"),("crs","EPSG:4326"),("resolution_degrees",res),
-              ("extent",f"{xmin},{ymin},{xmax},{ymax}"),("regions",len(regions)),("tips",len(assign)),
-              ("luzon_classification","physiographic northern versus southern Luzon endemism regions"),
-              ("luzon_boundary_basis","Cordillera-Zambales-Northern Sierra Madre versus Southern Sierra Madre-Southern Luzon-Bicol"),
-              ("interpretation","operational GIS reconstruction of thesis categorical regions")]: w.writerow(x)
-print(f"Wrote {len(regions)} regions and {len(assign)} tip ranges to {OUT}")
+print(f"Wrote {len(regions)} bioregions and {len(assign)} tip assignments to {OUT}")

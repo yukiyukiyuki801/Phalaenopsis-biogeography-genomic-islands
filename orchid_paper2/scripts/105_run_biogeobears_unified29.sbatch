@@ -12,9 +12,10 @@ set -euo pipefail
 module load R-bundle-CRAN/2024.06-foss-2022b
 # Set R_LIBS_USER for your installation if needed.
 export ORCHID_PAPER2_ROOT=${ORCHID_PROJECT_ROOT}
+: "${BGB_BASE:?Set BGB_BASE to a calibration-specific max_range_3 directory}"
 models=(DEC DECJ DIVALIKE DIVALIKEJ BAYAREALIKE BAYAREALIKEJ)
 idx=$((SLURM_ARRAY_TASK_ID-1))
 tree_num=$((idx/6))
 model=${models[$((idx%6))]}
 if (( tree_num == 0 )); then tree_id=mcc; else tree_id=$tree_num; fi
-Rscript orchid_paper2/scripts/104_run_biogeobears_unified29.R "$tree_id" "$model"
+Rscript orchid_paper2/scripts/104_run_biogeobears_unified29.R "$tree_id" "$model" 3

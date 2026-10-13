@@ -11,8 +11,8 @@ from matplotlib.patches import PathPatch, Patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
-GPKG = ROOT / "17_herodotools/inputs/bioregions/biogeographic_regions.gpkg"
-OUT = ROOT / "17_herodotools/plots"
+GPKG = ROOT / "19_biogeobears/bioregions/biogeographic_regions.gpkg"
+OUT = ROOT / "19_biogeobears/bioregion_plots"
 OUT.mkdir(parents=True, exist_ok=True)
 
 # Codes and colors match the single-region BioGeoBEARS legend. Region D has no

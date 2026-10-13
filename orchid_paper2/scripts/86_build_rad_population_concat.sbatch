@@ -12,5 +12,5 @@ ROOT=${ORCHID_PROJECT_ROOT}/orchid_paper2
 python "$ROOT/scripts/86_build_rad_population_concat.py" \
   --vcf "$ROOT/05_all_sites_vcf/filtered/orchid_173.paper1_like.biallelic_snps_invariant.vcf.gz" \
   --bed "$ROOT/05_all_sites_vcf/callable/cohort_callable.bed" \
-  --popmap "$ROOT/14_snapper/inputs/whole29/sample_to_population.tsv" \
+  --popmap "$ROOT/16_rad_beast/inputs/sample_to_population.tsv" \
   --outdir "$ROOT/16_rad_beast/inputs"

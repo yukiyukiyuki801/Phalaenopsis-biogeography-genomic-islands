@@ -3,14 +3,14 @@ suppressPackageStartupMessages({library(BioGeoBEARS); library(ape)})
 args <- commandArgs(trailingOnly=TRUE)
 if (length(args) < 2L || length(args) > 3L) stop("usage: tree_id model [max_range_size]")
 tree_id <- args[1]; model <- args[2]
-max_range_size <- if(length(args)==3L) as.integer(args[3]) else 4L
+max_range_size <- if(length(args)==3L) as.integer(args[3]) else 3L
 if(!max_range_size %in% 2:4) stop("max_range_size must be 2, 3, or 4")
 models <- c("DEC", "DECJ", "DIVALIKE", "DIVALIKEJ", "BAYAREALIKE", "BAYAREALIKEJ")
 stopifnot(model %in% models)
 root <- normalizePath(Sys.getenv("ORCHID_PAPER2_ROOT"), mustWork=TRUE)
 base_env <- Sys.getenv("BGB_BASE",unset="")
-base <- if(nzchar(base_env)) normalizePath(base_env,mustWork=TRUE) else
-  file.path(root, "orchid_paper2/results/biogeobears_unified29")
+if(!nzchar(base_env)) stop("Set BGB_BASE to a calibration-specific unconstrained_29tip/<calibration>/max_range_3 directory")
+base <- normalizePath(base_env,mustWork=TRUE)
 inp <- file.path(base, "inputs")
 tree_file <- if (tree_id == "mcc") file.path(inp, "mcc_myr.newick") else
   file.path(inp, sprintf("posterior_%03d_myr.newick", as.integer(tree_id)))

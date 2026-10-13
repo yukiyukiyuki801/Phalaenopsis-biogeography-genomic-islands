@@ -8,6 +8,19 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
+assert not any(p.is_file() for p in (ROOT/'orchid_paper2').glob('17_herodotools/**/*'))
+for p in (ROOT/'orchid_paper2/scripts').iterdir():
+    if p.suffix in ('.py','.R','.sh','.sbatch'):
+        text=p.read_text()
+        assert '17_herodotools' not in text and '14_snapper' not in text,p
+        assert 'final_60m_summary' not in text,p
+assign=pd.read_csv(ROOT/'orchid_paper2/16_rad_beast/inputs/sample_to_population.tsv',sep='\t')
+assert len(assign)==94 and assign.population.nunique()==29
+for cal in ('givnish','zhang'):
+    inp=ROOT/f'orchid_paper2/19_biogeobears/unconstrained_29tip/{cal}/max_range_3/inputs'
+    assert len(pd.read_csv(inp/'area_order.tsv',sep='\t'))==10
+    assert len(pd.read_csv(inp/'allowed_states.tsv',sep='\t'))==45
+    assert (inp/'max_range_size.txt').read_text().strip()=='3'
 for p in (ROOT/'orchid_paper2/scripts').glob('*.py'):ast.parse(p.read_text(),filename=str(p))
 for p in (ROOT/'orchid_paper2/scripts').iterdir():
     if p.suffix in ('.sh','.sbatch'):subprocess.run(['bash','-n',str(p)],check=True)

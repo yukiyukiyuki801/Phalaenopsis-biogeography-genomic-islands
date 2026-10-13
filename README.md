@@ -12,7 +12,8 @@ single-copy orthologue dating, unconstrained population RAD dating, historical
 biogeography and BSM, climate associations, population-lineage branching models,
 RAD differentiation signatures, outlier recurrence, local genealogies, and
 candidate-gene annotation. Only the Givnish and Zhang unconstrained age-plus-rate
-prior scenarios are included for RAD dating. ENM, SNAP(P)ER, constrained RAD
+prior scenarios are included for RAD dating. Herodotools inference and raster
+preparation, ENM, SNAP(P)ER, constrained RAD
 trees, fixed-rate experiments, and GO enrichment are not included.
 
 ## Organization

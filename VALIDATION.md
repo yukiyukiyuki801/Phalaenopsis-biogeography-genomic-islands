@@ -16,6 +16,13 @@ Completed checks:
 - The packaged migration converter reproduces 6,596 SNPs, 170 individuals,
   and 18 populations without additional frequency filtering.
 - Source/adaptation hashes and release-file SHA-256 manifest.
+- Manuscript-scope checks: no Herodotools raster/inference scripts or old
+  constrained-tree/SNAP(P)ER input paths in executable workflows. Shared
+  bioregion polygons and assignments are retained under BioGeoBEARS.
+- RAD sample assignment: 94 selected individuals and 29 population consensuses.
+- BioGeoBEARS inputs: ten sampled areas, 45 allowed states including null,
+  maximum range size three. Input-refresh helper checked in a temporary copy;
+  it retains the fitted geography and uses only the unconstrained trees.
 
 Run `python scripts/check_package.py` to repeat the integrity checks. The
 checker does not submit jobs, install software, or fit models.

@@ -96,15 +96,22 @@ Low ESS and Zhang chain disagreement remain in the diagnostic table (S9).
 ## 5. Historical ranges and stochastic mapping — Figures 2–4a, S8–S11
 
 The ten sampled regions use codes A/B/C/E/F/G/H/I/J/K, with no sampled D tip.
-The mapping and geometry files are retained under `17_herodotools/inputs/bioregions`
-only because they supply these geographic inputs; no Herodotools inference is
-included. Codes, colors, adjacency, and tip geography are explicit inputs.
+The mapping and geometry files are retained under `19_biogeobears/bioregions`
+and supply only the reported geographic inputs. Script 96 builds vector polygons
+and tip assignments, not raster distributions or regionalization. Codes, colors,
+adjacency, and tip geography are explicit inputs.
+
+Script 103 refreshes MCC and 100 posterior-tree inputs from the reported
+unconstrained summaries while retaining the supplied ten-area, graph-connected
+range definition. It does not use an earlier constrained tree.
 
 For each calibration, set `BGB_BASE` to
 `$ORCHID_PROJECT_ROOT/orchid_paper2/19_biogeobears/unconstrained_29tip/<calibration>/max_range_3`.
 Script 104 runs one model on one tree:
 
 ```bash
+export ORCHID_PAPER2_ROOT="$ORCHID_PROJECT_ROOT"
+export BGB_BASE="$ORCHID_PROJECT_ROOT/orchid_paper2/19_biogeobears/unconstrained_29tip/givnish/max_range_3"
 Rscript orchid_paper2/scripts/104_run_biogeobears_unified29.R mcc DIVALIKEJ 3
 ```
 

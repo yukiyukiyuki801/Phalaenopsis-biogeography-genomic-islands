@@ -9,7 +9,7 @@ import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
-ROOT=Path(__file__).resolve().parents[2]; BASE=ROOT/'orchid_paper2/16_rad_beast'; IN=BASE/'final_unconstrained_60m_summary'; CON=BASE/'final_60m_summary'; FIG=IN/'figures'; FIG.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2]; BASE=ROOT/'orchid_paper2/16_rad_beast'; IN=BASE/'final_unconstrained_60m_summary'; FIG=IN/'figures'; FIG.mkdir(exist_ok=True)
 PAM=set('AMB PAL PNG PON QL SAB SK SUL SUR TUA WJ'.split()); PSA={'MDA'}; COL={'PAM':'#D95F02','PAP':'#1B9E77','PSA':'#7570B3','PEQ':'#444'}; BURN=6_000_000
 def lineage(x): return 'PEQ' if x=='PEQ' else ('PAM' if x in PAM else ('PSA' if x in PSA else 'PAP'))
 def trans(path):
@@ -110,7 +110,6 @@ for s in ['zhang','givnish']:
  for i,c in enumerate(M[s].get_nonterminals()):
   k=frozenset(q.name for q in c.get_terminals());rows.append({'node':f'N{i+1}','n_descendants':len(k),'descendants':','.join(sorted(k)),'mcc_age':HH-dep[c],'posterior':S[s].get(k,1),'sampled_posterior_frequency':COUNTS[s].get(k,0)/N[s]})
  pd.DataFrame(rows).to_csv(IN/f'{s}_unconstrained_node_ages_and_support.tsv',sep='\t',index=False)
- constrained=mcc(CON/f'{s}_final_mcc.tree');tangle(constrained,M[s],f'{s}_constrained_vs_unconstrained_tanglegram',f'{s.capitalize()} calibration: constrained versus lineage-unconstrained MCC topology')
 pd.DataFrame(FREQ).to_csv(IN/'unconstrained_lineage_monophyly_frequencies.tsv',sep='\t',index=False)
 pd.DataFrame(CHAINFREQ).to_csv(IN/'unconstrained_lineage_monophyly_frequencies_by_chain.tsv',sep='\t',index=False)
 pd.DataFrame(TOPO).to_csv(IN/'unconstrained_topology_agreement_by_chain.tsv',sep='\t',index=False)
